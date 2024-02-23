@@ -3,6 +3,7 @@
 # ==============================================================================
 # Script Name: MySQL Comprehensive Monitoring Script
 # Author: Rahul Kumar
+# Version: 1.0
 # Copyright: Copyright (c) tecadmin.net
 # Description:
 #   This script provides comprehensive monitoring capabilities for MySQL servers,
