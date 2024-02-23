@@ -3,7 +3,7 @@
 # ==============================================================================
 # Script Name: MySQL Comprehensive Monitoring Script
 # Author: Rahul Kumar
-# Version: 1.0
+# Version: 1.0.1
 # Copyright: Copyright (c) tecadmin.net
 # Description:
 #   This script provides comprehensive monitoring capabilities for MySQL servers,
@@ -77,7 +77,7 @@ if [ $? -ne 0 ]; then
 fi
 
 OVERALL_STATUS="OK"
-CONSOLIDATED_MESSAGES=""
+CONSOLIDATED_MESSAGES="SERVICE STATUS:OK"
 
 # Function to check each monitoring aspect
 perform_check() {
