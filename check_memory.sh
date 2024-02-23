@@ -4,6 +4,7 @@
 # SCRIPT: check_memory.sh
 # AUTHOR: Rahul Kumar
 # COPYRIGHT: tecadmin.net
+# Version: 1.0.1
 # DESCRIPTION:
 #   This script is designed to monitor and report on system memory usage. It
 #   allows for warning and critical thresholds to be set for memory usage
@@ -25,8 +26,8 @@
 #   threshold at 90%, with output in Megabytes.
 # ==============================================================================
 
-PROGNAME="check_memory"
-VERSION='1.0'
+
+# Set binary location an defaul values
 FREECMD='/usr/bin/free'
 UNIT='M' # Default unit
 WARNING_THRESHOLD=80
